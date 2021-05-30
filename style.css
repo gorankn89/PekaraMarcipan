@@ -212,3 +212,26 @@ header img {
 .mapa {
     text-align: center;
 }
+
+#sendvici h1 {
+    text-align: center;
+    font-size: 1cm;
+    -webkit-box-shadow: 7px 9px 18px 12px rgba(158, 192, 255, 0.43);
+    box-shadow: 7px 9px 18px 12px rgba(197, 215, 250, 0.43);
+    box-sizing: border-box;
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(202, 205, 230);
+    border-radius: 10px;
+}
+
+.levaPeciva {
+    margin-top: 7vh;
+    margin-left: 10%;
+    margin-right: 20%;
+    font-size: 0.5cm;
+}
+
+.opisLevihPeciva {
+    margin-left: 10%;
+}
