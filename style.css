@@ -1,242 +1,331 @@
 * {
-    /* outline: solid 5px darkgreen; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  /* outline: solid 5px darkgreen; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-    /* margin: -2px; */
+  /* margin: -2px; */
 }
 
 a {
-    text-decoration-line: none;
-    text-decoration-style: none;
-    text-decoration: none;
-    color: antiquewhite;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  text-decoration: none;
+  color: rgb(0, 46, 145);
 }
 
 #navigacija {
-    text-align: center;
-    list-style-type: none;
-    background-color: rgba(93, 93, 93, 0.5);
-    margin: 20px;
-    -webkit-box-shadow: 17px 14px 35px 15px rgba(161, 165, 196, 1);
-    -moz-box-shadow: 17px 14px 35px 15px rgba(161, 165, 196, 1);
-    box-shadow: 17px 14px 35px 15px rgba(161, 165, 196, 1);
-    color: antiquewhite;
+  text-align: center;
+  list-style-type: none;
+  background-color: rgba(93, 93, 93, 0.5);
+  margin: 20px;
+  -webkit-box-shadow: 17px 14px 35px 15px rgba(161, 165, 196, 1);
+  -moz-box-shadow: 17px 14px 35px 15px rgba(161, 165, 196, 1);
+  box-shadow: 17px 14px 35px 15px rgba(161, 165, 196, 1);
+  color: antiquewhite;
 }
 
 header {
-    background-image: url("slike/naslovna.jpg");
-    background-size: 120%;
+  background-image: url("slike/naslovna.jpg");
+  background-size: 120%;
 }
 
 header img {
-    width: 50%;
-    text-align: center;
-    display: inline-block;
+  width: 50%;
+  text-align: center;
+  display: inline-block;
 }
 
 .nav {
-    display: inline-block;
-    list-style-type: none;
-    font-size: 30px;
-    padding: 5px 40px;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 30px;
+  padding: 5px 40px;
 }
 
 .logcenter {
-    width: 24.5%;
-    display: inline-block;
+  width: 24.5%;
+  display: inline-block;
 }
 
 #prva-sekcija {
-    background-image: url("slike/djakonije.jpg");
-    z-index: 5;
-    background-position: right;
-    background-size: 200vh;
-    color: white;
-    /* padding-left: 15%; */
-    padding-top: 90px;
-    z-index: 1;
+  background-image: url("slike/djakonije.jpg");
+  z-index: 5;
+  background-position: right;
+  background-size: 200vh;
+  color: white;
+  /* padding-left: 15%; */
+  padding-top: 90px;
+  z-index: 1;
 }
 
 #onama-prva-sekcija {
-    background-image: url("slike/djakonije.jpg");
-    z-index: 5;
-    background-position: right;
-    background-size: 200vh;
-    color: white;
-    /* padding-left: 15%; */
-    padding-top: 90px;
-    z-index: 1;
+  background-image: url("slike/djakonije.jpg");
+  z-index: 5;
+  background-position: right;
+  background-size: 200vh;
+  color: white;
+  /* padding-left: 15%; */
+  padding-top: 90px;
+  z-index: 1;
 }
 
 #prva-sekcija .sadrzaj {
-    width: 1100px;
-    margin: auto;
-    margin-top: 100px;
-    padding: 0px 10px;
+  width: 1100px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 0px 10px;
 }
 
 #prva-sekcija a h1 {
-    color: aliceblue;
-    font-size: 60px;
-    font-weight: normal;
-    background-color: rgba(93, 93, 93, 0.3);
-    width: 300px;
-    text-decoration-line: none;
-    text-decoration-style: none;
+  color: aliceblue;
+  font-size: 60px;
+  font-weight: normal;
+  background-color: rgba(93, 93, 93, 0.3);
+  width: 300px;
+  text-decoration-line: none;
+  text-decoration-style: none;
 }
 
 #onama-prva-sekcija .sadrzaj {
-    width: 1100px;
-    margin: auto;
-    margin-top: 100px;
-    padding: 0px 10px;
+  width: 1100px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 0px 10px;
 }
 
 #onama-prva-sekcija a h1 {
-    color: aliceblue;
-    font-size: 60px;
-    font-weight: normal;
-    background-color: rgba(93, 93, 93, 0.3);
-    width: 300px;
-    text-decoration-line: none;
-    text-decoration-style: none;
+  color: aliceblue;
+  font-size: 60px;
+  font-weight: normal;
+  background-color: rgba(93, 93, 93, 0.3);
+  width: 300px;
+  text-decoration-line: none;
+  text-decoration-style: none;
 }
 
 .sadrzaj {
-    text-decoration-line: none;
-    text-decoration-style: none;
-    background-image: url("slike/kolaci.jpg");
-    background-repeat: no-repeat;
-    background-size: 130vh;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  background-image: url("slike/kolaci.jpg");
+  background-repeat: no-repeat;
+  background-size: 130vh;
 }
 
 .onama-sadrzaj {
-    text-decoration-line: none;
-    text-decoration-style: none;
-    background-image: url("slike/paradajz.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vh;
-    margin-left: 300px;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  background-image: url("slike/paradajz.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  margin-left: 300px;
 }
 
 .proizvod {
-    display: inline-block;
+  display: inline-block;
 }
 
 #peciva img {
-    size: 20vh;
-    display: inline-block;
+  size: 20vh;
+  display: inline-block;
 }
 
 .podvucen {
-    text-decoration-line: none;
-    text-decoration-style: none;
-    size: 20vh;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  size: 20vh;
 }
 
 #prva-sekcija p {
-    font-size: 25px;
-    width: 450px;
-    background-color: rgba(149, 158, 228, 0.4);
+  font-size: 25px;
+  width: 450px;
+  background-color: rgba(149, 158, 228, 0.4);
 }
 
 #onama-prva-sekcija p {
-    font-size: 25px;
-    width: 450px;
-    background-color: rgba(149, 158, 228, 0.8);
+  font-size: 25px;
+  width: 450px;
+  background-color: rgba(149, 158, 228, 0.8);
 }
 
 #prva-sekcija button {
-    background-color: gainsboro;
-    color: black;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    border: 0px;
-    transition: all 0.3s;
+  background-color: gainsboro;
+  color: black;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0px;
+  transition: all 0.3s;
 }
 
 #prva-sekcija button:hover {
-    cursor: pointer;
-    background-color: rgba(93, 93, 93, 0.4);
-    font-size: 30px;
+  cursor: pointer;
+  background-color: rgba(93, 93, 93, 0.4);
+  font-size: 30px;
 }
 
 #onama-prva-sekcija button {
-    background-color: gainsboro;
-    color: black;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    border: 0px;
-    transition: all 0.3s;
+  background-color: gainsboro;
+  color: black;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0px;
+  transition: all 0.3s;
 }
 
 #onama-prva-sekcija button:hover {
-    cursor: pointer;
-    background-color: rgba(93, 93, 93, 0.4);
-    font-size: 30px;
+  cursor: pointer;
+  background-color: rgba(93, 93, 93, 0.4);
+  font-size: 30px;
 }
 
 .kolaci-i-peciva {
-    width: 100%;
-    height: 100vh;
-    display: inline-block;
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
 }
 
 .kolaci-i-peciva1 {
-    background-image: url("slike/kolaci2.jpg");
-    width: 49%;
-    height: 50%;
-    display: inline-block;
-    font-size: 40px;
-    color: antiquewhite;
-    text-align: center;
+  background-image: url("slike/kolaci2.jpg");
+  width: 49%;
+  height: 50%;
+  display: inline-block;
+  font-size: 40px;
+  color: antiquewhite;
+  text-align: center;
 }
 
 .kolaci-i-peciva2 {
-    background-image: url("slike/peciva2.jpg");
-    background-size: cover;
-    width: 49%;
-    height: 50%;
-    display: inline-block;
-    font-size: 40px;
-    color: antiquewhite;
-    text-align: center;
+  background-image: url("slike/peciva2.jpg");
+  background-size: cover;
+  width: 49%;
+  height: 50%;
+  display: inline-block;
+  font-size: 40px;
+  color: antiquewhite;
+  text-align: center;
 }
 
 .mapa {
-    text-align: center;
+  text-align: center;
 }
 
 #sendvici h1 {
-    text-align: center;
-    font-size: 1cm;
-    -webkit-box-shadow: 7px 9px 18px 12px rgba(158, 192, 255, 0.43);
-    box-shadow: 7px 9px 18px 12px rgba(197, 215, 250, 0.43);
-    box-sizing: border-box;
-    width: fit-content;
-    margin: auto;
-    background-color: rgb(202, 205, 230);
-    border-radius: 10px;
+  text-align: center;
+  font-size: 1cm;
+  -webkit-box-shadow: 7px 9px 18px 12px rgba(158, 192, 255, 0.43);
+  box-shadow: 7px 9px 18px 12px rgba(197, 215, 250, 0.43);
+  box-sizing: border-box;
+  width: fit-content;
+  margin: auto;
+  background-color: rgb(202, 205, 230);
+  border-radius: 10px;
 }
 
 .levaPeciva {
-    margin-top: 7vh;
-    margin-left: 10%;
-    margin-right: 20%;
-    font-size: 0.5cm;
+  margin-top: 7vh;
+  margin-left: 10%;
+  margin-right: 20%;
+  font-size: 0.5cm;
 }
 
 .opisLevihPeciva {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 #TriLece {
+  width: 300px;
+  margin-left: 12%;
+}
+
+@media screen and (max-width: 400px) {
+  #onama-prva-sekcija {
+    background-color: olive;
+    margin-left: -80%;
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .founded {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #onama-prva-sekcija p {
     width: 300px;
-    margin-left: 12%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav {
+    padding-left: -30%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #prva-sekcija p {
+    width: 300px;
+    /* margin-left: -30%; */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #prva-sekcija .sadrzaj {
+    width: 375px;
+    /* margin-left: -30%; */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .kolaci-i-peciva1 {
+    font-size: large;
+    /* margin-left: -30%; */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .kolaci-i-peciva2 {
+    font-size: large;
+    color: rgb(203, 215, 238);
+    /* margin-left: -30%; */
+  }
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+@media screen and (max-width: 400px) {
+  .kolaci-i-peciva2 {
+    font-size: large;
+    color: rgb(203, 215, 238);
+    /* margin-left: -30%; */
+  }
+}
+@media screen and (max-width: 400px) {
+  #prva-sekcija {
+    background-size: 90vh;
+    /* margin-left: -30%; */
+  }
+}
+@media screen and (max-width: 400px) {
+  header img {
+    width: 100%;
+    margin-top: -8%;
+    /* margin-left: -30%; */
+  }
 }
